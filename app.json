@@ -1,0 +1,32 @@
+{
+    "name": "Notakin ",
+    "description": "This app takes notes, retrieves notes, and deletes them as well.",
+    "keywords": [
+        "productivity",
+        "express",
+        "bootcamp",
+        "node",
+        "notes"
+    ],
+    "website": "null",
+    "repository": "https://github.com/AllDeus/Notakin.git",
+    "success_url": "/",
+    "formation": {
+        "web": {
+            "quantity": 2,
+            "size": "Performance-M"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://notakin.herokuapp.com/"
+        }
+    ],
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "jest"
+            }
+        }
+    }
+}
